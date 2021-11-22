@@ -11,6 +11,19 @@ namespace ApplicationWeb.Models
     {
         public string connectionString = "server=DESKTOP-AL1KICC;Integrated Security=True;database=DbWeather;";
 
+        
+        public void delete(int id)
+        {
+            SqlConnection sqlConnection = new SqlConnection(connectionString);
+            SqlCommand sqlCommand = new SqlCommand("deleteinfo", sqlConnection);
+            sqlCommand.Parameters.AddWithValue("@id", id);
+            sqlCommand.CommandType = System.Data.CommandType.StoredProcedure;
+            sqlConnection.Open();
+            sqlCommand.ExecuteNonQuery();
+            sqlConnection.Close();
+        }
+        
+        
         public void addData(Detail objDetail)
         {
             SqlConnection sqlConnection = new SqlConnection(connectionString);
@@ -25,6 +38,8 @@ namespace ApplicationWeb.Models
             sqlConnection.Close();
 
         }
+
+
 
 
         public List<Detail> getdetail()

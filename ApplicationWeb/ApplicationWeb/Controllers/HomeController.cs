@@ -44,6 +44,13 @@ namespace ApplicationWeb.Controllers
 
         }
 
+        [HttpPost]
+        public IActionResult DeleteData(int id)
+        {
+            new Database().delete(id);
+            return RedirectToAction("ShowData");
+
+        }
    
     }
 }
