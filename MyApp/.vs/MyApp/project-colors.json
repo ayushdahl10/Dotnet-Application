@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "48f089e3-2aaa-4a5b-8ccf-c48580184547": {
+      "ProjectGuid": "48f089e3-2aaa-4a5b-8ccf-c48580184547",
+      "DisplayName": "MyApp",
+      "ColorIndex": 0
+    },
+    "50793cd3-d0d8-4189-bb19-f2a3e824e780": {
+      "ProjectGuid": "50793cd3-d0d8-4189-bb19-f2a3e824e780",
+      "DisplayName": "BusinessModel",
+      "ColorIndex": 1
+    },
+    "e2d159f4-c337-490d-8531-b936950e223b": {
+      "ProjectGuid": "e2d159f4-c337-490d-8531-b936950e223b",
+      "DisplayName": "DataLayer",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}

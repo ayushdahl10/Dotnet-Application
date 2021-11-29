@@ -1,0 +1,59 @@
+﻿@model List<BusinessModel.Customer>
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div>
+    <a href="Add" class=" btn btn-warning text-white my-3">Add Customer</a>
+    <table class="table ">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Username</th>
+                <th scope="col">Gender</th>
+                <th scope="col">Email</th>
+                <th scope="col">Number</th>
+                <th scope="col">Address</th>
+                <th scope="col">Edit</th>
+                <th scope="col">Delete</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var cus in Model)
+            {
+                <tr>
+                    <th scope="row">*</th>
+                    <td>@cus.UserName</td>
+                    <td>@cus._Gender</td>
+                    <td>@cus.Email</td>
+                    <td>@cus.Number</td>
+                    <td>@cus.Address</td>
+                    <td><a class="btn btn-danger" href="home/edit/@cus.CustomerID">Edit</a></td>
+                    <td>
+                        <a class="btn btn-primary" href="home/deletes/@cus.CustomerID">Delete</a>
+                    </td>
+                </tr>
+
+
+            }
+
+        </tbody>
+    </table>
+</div>
+    <script>
+        function alertBox(id) {
+            var con=confirm("Are you sure you want to delete this Customer data");
+            if (con) {
+                alert("you deleted the file");
+                $.post("home/delete"+id)
+            }
+            else {
+                alert("file is not deleted");
+            }
+        }
+    </script>
+
+
+
+

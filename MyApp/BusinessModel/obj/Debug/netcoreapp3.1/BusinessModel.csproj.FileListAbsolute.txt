@@ -1,0 +1,10 @@
+D:\DOTNET\MyApp\BusinessModel\bin\Debug\netcoreapp3.1\BusinessModel.deps.json
+D:\DOTNET\MyApp\BusinessModel\bin\Debug\netcoreapp3.1\BusinessModel.dll
+D:\DOTNET\MyApp\BusinessModel\bin\Debug\netcoreapp3.1\BusinessModel.pdb
+D:\DOTNET\MyApp\BusinessModel\obj\Debug\netcoreapp3.1\BusinessModel.csproj.AssemblyReference.cache
+D:\DOTNET\MyApp\BusinessModel\obj\Debug\netcoreapp3.1\BusinessModel.GeneratedMSBuildEditorConfig.editorconfig
+D:\DOTNET\MyApp\BusinessModel\obj\Debug\netcoreapp3.1\BusinessModel.AssemblyInfoInputs.cache
+D:\DOTNET\MyApp\BusinessModel\obj\Debug\netcoreapp3.1\BusinessModel.AssemblyInfo.cs
+D:\DOTNET\MyApp\BusinessModel\obj\Debug\netcoreapp3.1\BusinessModel.csproj.CoreCompileInputs.cache
+D:\DOTNET\MyApp\BusinessModel\obj\Debug\netcoreapp3.1\BusinessModel.dll
+D:\DOTNET\MyApp\BusinessModel\obj\Debug\netcoreapp3.1\BusinessModel.pdb

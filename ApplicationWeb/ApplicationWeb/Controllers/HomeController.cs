@@ -30,8 +30,7 @@ namespace ApplicationWeb.Controllers
                     longitude = lon,
                 };
                 new Database().addData(details);
-                return RedirectToAction("Index");
-         
+                return RedirectToAction("Index");         
            
         }
 

@@ -1,0 +1,125 @@
+﻿
+@{
+ 
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+
+    <style>
+
+        #send
+        {
+            display:none;
+        }
+        #close {
+            display: none;
+        }
+        label
+        {
+            display:block;
+        }
+        #dropzone
+        {
+            position:relative;
+            height:200px;
+            width:500px;
+            background-color:cadetblue;
+        }
+        span{
+
+            position:absolute;
+            top:45%;
+            left:3%;
+        }
+
+    </style>
+
+
+</head>
+<body>
+
+    <form method="post" enctype="multipart/form-data">
+        <img id="img" src="" />
+        <input type="file" class="form-control" name="files" id="files" />
+        <br />
+        <a id="send" class="btn btn-primary my-3">Send</a>&nbsp;
+        <a id="close" class="btn btn-danger my-3">Clear</a>
+        <label class="text-danger">Can only upload png jpg jpeg and pdf </label>
+        @*<div id="dropzone" class="rounded-3 mt-4">
+
+            <span>Drag and Drop your files here</span>
+
+        </div>*@
+    </form>
+
+
+    <script>
+
+        var data = new FormData();
+        var fileextension;
+        var canUpload = false;
+        $("#files").change(function () {
+
+
+
+            fileextension = $("#files").val().split('.').pop();
+            if (fileextension == "jpeg" || fileextension == "jpg" || fileextension == "png" || fileextension=="pdf") {
+
+                $("#send").show();
+                $("label").hide();
+                $("#close").show();
+            }
+            else {
+
+                $("#send").hide();
+                $("label").show();
+                $("#close").hide();
+            }
+
+
+
+
+        });
+
+
+        $("#send").click(function (e) {
+           
+
+        
+            data.append('Image', $('#files')[0].files[0]);
+      
+            $.ajax({
+                
+                url: "upload",
+                type: "post",
+                enctype: "multipart/form-data",
+                
+                data: data,      
+                processData: false,
+                contentType: false,
+              
+                          
+            })
+
+            e.preventDefault();
+            
+          
+
+        })
+
+        $("#close").click(function () {
+
+            $("#files").val('');
+
+        })
+  
+
+
+
+    </script>
+
+</body>
+</html>

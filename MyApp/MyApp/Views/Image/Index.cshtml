@@ -1,0 +1,84 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<style>
+
+    .img-container {
+        position: relative;
+     
+    }
+
+    #img {
+        position: relative;
+        height:500px;
+        width:100%;
+    }
+
+    #prev {
+        position: absolute;
+        top: 48%;
+        left: 2%;
+    }
+
+    #next {
+        position: absolute;
+        top: 48%;
+        left: 93%;
+    }
+    #prev:hover{
+        background-color:black;
+        color:white;
+    }
+    #next:hover{
+        background-color:black;
+        color:white;
+    }
+</style>
+
+<h1>Index</h1>
+
+<div class="container ">
+
+    <div class="img-container text-center img-flui">
+
+        <img id="img" class="img-fluid" src="~/upload/diablo.jpg"  />
+        <a id="prev" class="btn"><b style="font-size:40px;" >&lt;</b></a>
+        <a id="next" class="btn"><b style="font-size:40px">&gt;</b></a>
+        <label></label>
+    </div>
+
+
+</div>
+
+
+<script type="text/javascript">
+
+    var i = 0;
+    var j = 0;
+    var image_array = ["diablo.jpg","f50.jpg","viper.jpg","ford_mustang.jpg"];
+
+
+
+        $("#next").click(function () {
+        i++;
+        i = i % image_array.length;
+
+        $("#img").attr("src", "/upload/" + image_array[i]);
+    });
+    $("#prev").click(function () {
+
+        i--;
+        if (i < 0) {
+            i = image_array.length - 1;
+        }
+        $("#img").attr("src", "/upload/" + image_array[i]);
+
+    });
+
+
+
+
+</script>
