@@ -36,7 +36,7 @@ namespace MyApp.Controllers
             if (ModelState.IsValid)
             {
                 new CustomerDAO().AddCustomer(customer);
-                return RedirectToAction("ViewCustomer");
+                return RedirectToAction("index","image");
             }
 
             return View();
