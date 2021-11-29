@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\DOTNET\\MyApp\\DataLayer\\DataLayer.csproj": {}
+    "D:\\DOTNET\\API\\MyApp\\DataLayer\\DataLayer.csproj": {}
   },
   "projects": {
-    "D:\\DOTNET\\MyApp\\BusinessModel\\BusinessModel.csproj": {
+    "D:\\DOTNET\\API\\MyApp\\BusinessModel\\BusinessModel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DOTNET\\MyApp\\BusinessModel\\BusinessModel.csproj",
+        "projectUniqueName": "D:\\DOTNET\\API\\MyApp\\BusinessModel\\BusinessModel.csproj",
         "projectName": "BusinessModel",
-        "projectPath": "D:\\DOTNET\\MyApp\\BusinessModel\\BusinessModel.csproj",
+        "projectPath": "D:\\DOTNET\\API\\MyApp\\BusinessModel\\BusinessModel.csproj",
         "packagesPath": "C:\\Users\\ayush\\.nuget\\packages\\",
-        "outputPath": "D:\\DOTNET\\MyApp\\BusinessModel\\obj\\",
+        "outputPath": "D:\\DOTNET\\API\\MyApp\\BusinessModel\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ayush\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -58,14 +58,14 @@
         }
       }
     },
-    "D:\\DOTNET\\MyApp\\DataLayer\\DataLayer.csproj": {
+    "D:\\DOTNET\\API\\MyApp\\DataLayer\\DataLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DOTNET\\MyApp\\DataLayer\\DataLayer.csproj",
+        "projectUniqueName": "D:\\DOTNET\\API\\MyApp\\DataLayer\\DataLayer.csproj",
         "projectName": "DataLayer",
-        "projectPath": "D:\\DOTNET\\MyApp\\DataLayer\\DataLayer.csproj",
+        "projectPath": "D:\\DOTNET\\API\\MyApp\\DataLayer\\DataLayer.csproj",
         "packagesPath": "C:\\Users\\ayush\\.nuget\\packages\\",
-        "outputPath": "D:\\DOTNET\\MyApp\\DataLayer\\obj\\",
+        "outputPath": "D:\\DOTNET\\API\\MyApp\\DataLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ayush\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -82,8 +82,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\DOTNET\\MyApp\\BusinessModel\\BusinessModel.csproj": {
-                "projectPath": "D:\\DOTNET\\MyApp\\BusinessModel\\BusinessModel.csproj"
+              "D:\\DOTNET\\API\\MyApp\\BusinessModel\\BusinessModel.csproj": {
+                "projectPath": "D:\\DOTNET\\API\\MyApp\\BusinessModel\\BusinessModel.csproj"
               }
             }
           }

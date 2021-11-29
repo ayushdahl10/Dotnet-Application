@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7anGNUBQfmXfYrVi9NrU6o/cHBiVBVdt5mNCor7Jglmr5KW3Jl6nXUyM45SgZux4Rbkjfx206V5E0YYhHSnzug==",
+  "dgSpecHash": "Sq0pmbrh7YVkpAuF6I6+Bo75X3YDFvT1Magz4ViyjxAiE6CK8NIvF5YY8KBZsY03h5+nnS0ij0yFyUZ5OVkY/Q==",
   "success": true,
-  "projectFilePath": "D:\\DOTNET\\MyApp\\BusinessModel\\BusinessModel.csproj",
+  "projectFilePath": "D:\\DOTNET\\API\\MyApp\\BusinessModel\\BusinessModel.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

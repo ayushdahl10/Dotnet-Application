@@ -7534,11 +7534,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\DOTNET\\MyApp\\MyApp\\MyApp.csproj",
+      "projectUniqueName": "D:\\DOTNET\\API\\MyApp\\MyApp\\MyApp.csproj",
       "projectName": "MyApp",
-      "projectPath": "D:\\DOTNET\\MyApp\\MyApp\\MyApp.csproj",
+      "projectPath": "D:\\DOTNET\\API\\MyApp\\MyApp\\MyApp.csproj",
       "packagesPath": "C:\\Users\\ayush\\.nuget\\packages\\",
-      "outputPath": "D:\\DOTNET\\MyApp\\MyApp\\obj\\",
+      "outputPath": "D:\\DOTNET\\API\\MyApp\\MyApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ayush\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7555,11 +7555,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\DOTNET\\MyApp\\BusinessModel\\BusinessModel.csproj": {
-              "projectPath": "D:\\DOTNET\\MyApp\\BusinessModel\\BusinessModel.csproj"
+            "D:\\DOTNET\\API\\MyApp\\BusinessModel\\BusinessModel.csproj": {
+              "projectPath": "D:\\DOTNET\\API\\MyApp\\BusinessModel\\BusinessModel.csproj"
             },
-            "D:\\DOTNET\\MyApp\\DataLayer\\DataLayer.csproj": {
-              "projectPath": "D:\\DOTNET\\MyApp\\DataLayer\\DataLayer.csproj"
+            "D:\\DOTNET\\API\\MyApp\\DataLayer\\DataLayer.csproj": {
+              "projectPath": "D:\\DOTNET\\API\\MyApp\\DataLayer\\DataLayer.csproj"
             }
           }
         }
