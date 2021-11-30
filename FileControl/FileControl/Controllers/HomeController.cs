@@ -57,20 +57,14 @@ namespace FileControl.Controllers
 
                 var startRow = 5;
                 var row = startRow;
-                worksheet.Cells["A1"].Value = "Items";
-                using (var r = worksheet.Cells["A1:C1"])
-                {
-                    r.Merge = true;
-                    r.Style.Font.Color.SetColor(Color.Green);
+             
+                worksheet.Cells["A1"].Value = "Name";
+                worksheet.Cells["B1"].Value = "Quantity";
+                worksheet.Cells["C1"].Value = "Amount";
+                worksheet.Cells["D1"].Value = "Discount";
+                worksheet.Cells["E1"].Value = "Rate";
 
-                }
-                worksheet.Cells["A2"].Value = "Name";
-                worksheet.Cells["B2"].Value = "Quantity";
-                worksheet.Cells["C2"].Value = "Amount";
-                worksheet.Cells["D2"].Value = "Discount";
-                worksheet.Cells["E2"].Value = "Rate";
-
-                row = 3;
+                row = 2;
                 foreach (var item in objItems)
                 {
                     worksheet.Cells[row, 1].Value = item.Item_Name;
