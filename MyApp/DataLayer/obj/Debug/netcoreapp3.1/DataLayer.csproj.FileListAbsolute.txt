@@ -11,3 +11,16 @@ D:\DOTNET\MyApp\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.csproj.CoreCompileIn
 D:\DOTNET\MyApp\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.dll
 D:\DOTNET\MyApp\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.pdb
 D:\DOTNET\MyApp\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.csproj.CopyComplete
+D:\DOTNET\API\MyApp\DataLayer\bin\Debug\netcoreapp3.1\DataLayer.deps.json
+D:\DOTNET\API\MyApp\DataLayer\bin\Debug\netcoreapp3.1\DataLayer.dll
+D:\DOTNET\API\MyApp\DataLayer\bin\Debug\netcoreapp3.1\DataLayer.pdb
+D:\DOTNET\API\MyApp\DataLayer\bin\Debug\netcoreapp3.1\BusinessModel.dll
+D:\DOTNET\API\MyApp\DataLayer\bin\Debug\netcoreapp3.1\BusinessModel.pdb
+D:\DOTNET\API\MyApp\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.csproj.AssemblyReference.cache
+D:\DOTNET\API\MyApp\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\DOTNET\API\MyApp\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.AssemblyInfoInputs.cache
+D:\DOTNET\API\MyApp\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.AssemblyInfo.cs
+D:\DOTNET\API\MyApp\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.csproj.CoreCompileInputs.cache
+D:\DOTNET\API\MyApp\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.csproj.CopyComplete
+D:\DOTNET\API\MyApp\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.dll
+D:\DOTNET\API\MyApp\DataLayer\obj\Debug\netcoreapp3.1\DataLayer.pdb

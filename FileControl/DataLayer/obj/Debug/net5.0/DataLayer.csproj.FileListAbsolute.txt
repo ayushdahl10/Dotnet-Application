@@ -1,0 +1,15 @@
+D:\DOTNET\API\FileControl\DataLayer\bin\Debug\net5.0\DataLayer.deps.json
+D:\DOTNET\API\FileControl\DataLayer\bin\Debug\net5.0\DataLayer.dll
+D:\DOTNET\API\FileControl\DataLayer\bin\Debug\net5.0\ref\DataLayer.dll
+D:\DOTNET\API\FileControl\DataLayer\bin\Debug\net5.0\DataLayer.pdb
+D:\DOTNET\API\FileControl\DataLayer\bin\Debug\net5.0\BusinessModel.dll
+D:\DOTNET\API\FileControl\DataLayer\bin\Debug\net5.0\BusinessModel.pdb
+D:\DOTNET\API\FileControl\DataLayer\obj\Debug\net5.0\DataLayer.csproj.AssemblyReference.cache
+D:\DOTNET\API\FileControl\DataLayer\obj\Debug\net5.0\DataLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\DOTNET\API\FileControl\DataLayer\obj\Debug\net5.0\DataLayer.AssemblyInfoInputs.cache
+D:\DOTNET\API\FileControl\DataLayer\obj\Debug\net5.0\DataLayer.AssemblyInfo.cs
+D:\DOTNET\API\FileControl\DataLayer\obj\Debug\net5.0\DataLayer.csproj.CoreCompileInputs.cache
+D:\DOTNET\API\FileControl\DataLayer\obj\Debug\net5.0\DataLayer.csproj.CopyComplete
+D:\DOTNET\API\FileControl\DataLayer\obj\Debug\net5.0\DataLayer.dll
+D:\DOTNET\API\FileControl\DataLayer\obj\Debug\net5.0\ref\DataLayer.dll
+D:\DOTNET\API\FileControl\DataLayer\obj\Debug\net5.0\DataLayer.pdb

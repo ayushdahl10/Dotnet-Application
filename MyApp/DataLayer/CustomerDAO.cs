@@ -5,6 +5,7 @@ using System.Data.SqlClient;
 using System.Linq;
 using System.Web;
 using BusinessModel;
+using MyApp.Models;
 
 namespace DataLayer
 {
@@ -26,7 +27,16 @@ namespace DataLayer
             cmd.Parameters.AddWithValue("@gender", customer._Gender);
             cmd.CommandType = CommandType.StoredProcedure;
             connection.Open();
-            cmd.ExecuteNonQuery();
+            try
+            {
+                cmd.ExecuteNonQuery();
+
+            }
+            catch(Exception ex)
+            {
+                ErrorHandling objerror = new ErrorHandling();
+                objerror.errorMessage = "Username or Email is already taken";
+            }
             connection.Close();
 
         }

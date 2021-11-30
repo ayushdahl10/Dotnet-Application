@@ -1,0 +1,63 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row mt-2">
+
+    <div class="col-md-4 ">
+        <form method="post" enctype="multipart/form-data">
+            <input type="file" class="form-control" id="files" />
+            <br />
+            <a class="btn btn-primary import">Import</a>
+            &nbsp;
+            <a  class="btn btn-danger export" href="home/export" >Export</a>
+
+        </form>
+
+
+
+    </div>
+
+</div>
+
+<script>
+    
+    var data=new FormData();
+
+
+       $("#files").change(function()
+        {
+            fileExtension=$("#files").val().split('.').pop();
+
+        })
+    $(".import").click(function()
+    {
+       data.append('Item', $('#files')[0].files[0]);
+      
+            $.ajax({
+                
+                url: "Home/Index",
+                type: "post",
+                enctype: "multipart/form-data",
+                
+                data: data,      
+                processData: false,
+                contentType: false,
+              
+                          
+            })
+       
+    })
+
+</script>
+    
+
+
+
+
+
+
+
+

@@ -36,7 +36,7 @@ namespace MyApp.Controllers
             if (ModelState.IsValid)
             {
                 new CustomerDAO().AddCustomer(customer);
-                return RedirectToAction("index","image");
+                return RedirectToAction("login");
             }
 
             return View();
@@ -66,6 +66,16 @@ namespace MyApp.Controllers
             return View(objCustomer);
         }
 
+        [HttpPost]
+        [Route("delete")]
+       
+        public IActionResult Delete(int id)
+        {
+            new CustomerDAO().Delete(id);
+            return RedirectToAction("ViewCustomer");
+        }
+
+
         
         [HttpGet]
         [Route("login")]
@@ -91,6 +101,7 @@ namespace MyApp.Controllers
                     ViewBag.Message = "Invalid Username or Password";
                     return View();
                 }
+                  
                 else
                 {
                     var claims = new List<Claim>()
@@ -100,8 +111,8 @@ namespace MyApp.Controllers
                      
 
                     };
-                    var identity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
-                    var principal = new ClaimsPrincipal(identity);
+                    ClaimsIdentity identity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
+                    ClaimsPrincipal principal = new ClaimsPrincipal(identity);
                     await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme,principal, new AuthenticationProperties()
                     {
                         IsPersistent = objLoginModelView.RememberLogin
